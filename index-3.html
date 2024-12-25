@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table Management</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex">
+  <!-- Sidebar -->
+  <div class="w-1/4 bg-white shadow-md p-6 ">
+    <div class="flex gap-1 items-center mb-8">
+    <img src="./image/restaurant 1.png" alt="" srcset="">
+    <h1 class="text-xl font-bold text-teal-600 ">Menu Mate</h1>
+</div>
+<ul class="space-y-4">
+    <li class="text-gray-600 hover:text-teal-600 cursor-pointer flex items-center">
+      <i class="fas fa-chart-line mr-2"><img src="./image/icons8-report-50 (1) 1.png" alt="" srcset=""></i> Reports
+    </li>
+    <li class="text-gray-600 hover:text-teal-600 cursor-pointer flex items-center">
+      <i class="fas fa-lightbulb mr-2"><img src="./image/icons8-likeness-64 1.png" alt="" srcset=""></i> Recommendation
+    </li>
+    <li class="text-gray-600 hover:text-teal-600 cursor-pointer flex items-center">
+      <i class="fas fa-calendar-alt mr-2"><img src="./image/icons8-event-accepted-80 1.png" alt="" srcset=""></i> Reservations
+    </li>
+    <li class="text-gray-600 hover:text-teal-600 cursor-pointer flex items-center">
+      <i class="fas fa-utensils mr-2"><img src="./image/icons8-restaurant-80 1.png" alt="" srcset=""></i> Menu Management
+    </li>
+    <li class="text-teal-600 font-bold cursor-pointer flex items-center">
+      <i class="fas fa-table mr-2"><img src="./image/icons8-restaurant-table-50 1.png" alt="" srcset=""></i> Table Management
+    </li>
+    <li class="text-gray-600 hover:text-teal-600 cursor-pointer flex items-center">
+      <i class="fas fa-comment-dots mr-2"><img src="./image/icons8-feedback-50 1.png" alt="" srcset=""></i> Feedback
+    </li>
+  </ul>
+  
+  </div>
+
+  <!-- Main Content -->
+  <div class="flex-1 p-8">
+    <!-- Header -->
+    <div class="flex justify-between items-center mb-8">
+      <h2 class="text-xl font-semibold text-gray-700">Friday, 15 November 00:22</h2>
+      <p class="text-lg font-medium text-gray-600">Dear Sajjad, Welcome!</p>
+    </div>
+
+    <!-- Select Floor -->
+    <div class="mb-8">
+      <h3 class="text-2xl font-bold text-teal-600 mb-4">Select Floor</h3>
+      <div class="flex items-center space-x-4">
+        <button class="bg-gray-200 text-gray-600 px-4 py-2 rounded-md">1st Floor</button>
+        <button class="bg-teal-600 text-white px-4 py-2 rounded-md">+</button>
+      </div>
+    </div>
+
+    <!-- Tables -->
+    <div class="grid grid-cols-3 gap-6 mb-8">
+      <div class="text-center">
+        <img src="./image/1 2.png" alt="Table 1" class="w-full h-auto">
+        <p class="mt-2 text-gray-700 font-medium">Table-1</p>
+      </div>
+      <div class="text-center">
+        <img src="./image/1 2.png" alt="Table 2" class="w-full h-auto">
+        <p class="mt-2 text-gray-700 font-medium">Table-2</p>
+      </div>
+      <div class="text-center">
+        <img src="./image/1 2.png" alt="Table 3" class="w-full h-auto">
+        <p class="mt-2 text-gray-700 font-medium">Table-3</p>
+      </div>
+    </div>
+
+    <!-- Select Table -->
+    <div class="mb-8">
+      <h3 class="text-2xl font-bold text-teal-600 mb-4">Select Table</h3>
+      <div class="flex items-center space-x-4 mb-6">
+        <button class="bg-gray-200 text-gray-600 px-4 py-2 rounded-md">Person</button>
+        <button class="bg-gray-200 text-gray-600 px-4 py-2 rounded-md">4</button>
+      </div>
+      <div class="text-center">
+        <img src="./image/4 100.png" alt="Selected Table" class="mx-auto">
+      </div>
+    </div>
+
+    <!-- Book Table Button -->
+    <div class="text-center">
+      <button class="bg-teal-600 text-white px-6 py-3 rounded-md hover:bg-teal-700">Book a table</button>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MenuMate Sign-Up</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
-    
+<body class="bg-gray-500 flex items-center justify-center min-h-screen">
+  <div class="flex w-full max-w-4xl h-auto bg-white shadow-lg rounded-lg overflow-hidden">
+    <!-- Left Section (40%) -->
+    <div class="w-2/5 bg-[#40839B] p-6 flex flex-col items-center justify-center text-white">
+        <img src="./image/cutlery 1.png" alt="" srcset="">
+      <h1 class="text-3xl font-bold mb-3">MenuMate</h1>
+      <p class="text-md mb-4">Discover, Dine & Delight</p>
+      <img src="./image/9503976-removebg-preview 1.png" alt="Waiter Illustration" class="h-[20rem]">
+    </div>
+
+    <!-- Right Section (60%) -->
+    <div class="w-3/5 p-8 bg-slate-400 ">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold text-gray-800">Create an account</h2>
+        <div class="">
+          <label for="account-type" class="text-gray-600 text-sm">Account Type</label>
+          <select id="account-type" class="border rounded-md px-2 py-1 text-gray-600">
+            <option>Customer</option>
+            <option>Restaurant Owner</option>
+          </select>
+        </div>
+      </div>
+      <p class="text-gray-600 mb-4">Let's get started!</p>
+      <form class="space-y-3 px-20">
+        <div>
+          <input type="text" placeholder="First Name" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-teal-500 focus:border-teal-500">
+        </div>
+        <div>
+          <input type="text" placeholder="Last Name" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-teal-500 focus:border-teal-500">
+        </div>
+        <div>
+          <input type="text" placeholder="Location" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-teal-500 focus:border-teal-500">
+        </div>
+        <div>
+          <label for="password" class="text-sm text-gray-600">Password:</label>
+          <input type="password" id="password" class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-teal-500 focus:border-teal-500">
+        </div>
+        <button type="submit" class="w-full bg-gradient-to-r from-[#40839B] to-[#162D35] text-white py-2 rounded-md hover:bg-teal-700">Sign Up</button>
+        <button type="button" class="w-full border border-gray-300 py-2 rounded-md hover:bg-gray-200">Continue with Email</button>
+      </form>
+      <p class="text-center text-gray-600 mt-4">
+        Already have an account? <a href="#" class="text-teal-600 font-semibold">Log In</a>
+      </p>
+    </div>
+  </div>
 </body>
 </html>
